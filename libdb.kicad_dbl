@@ -1,17 +1,16 @@
 {
     "meta": {
-        "version": 0,
-        "filename": "qa_dblib.kicad_dbl"
+        "version": 1.0
     },
-    "name": "QA Database",
-    "description": "A database for testing purposes",
+    "name": "KiCad Library Database",
+    "description": "A KiCad library database with individual tables for each component type",
     "source": {
         "type": "odbc",
         "dsn": "",
         "username": "",
         "password": "",
         "timeout_seconds": 2,
-        "connection_string": "Driver={SQLite3};Database=${CWD}/database.sqlite"
+        "connection_string": "DRIVER=SQLite3 ODBC Driver;Database=${CWD}/libdb.sqlite;"
     },
     "libraries": [
         {
@@ -102,17 +101,41 @@
                     "name": "Voltage Rating",
                     "visible_on_add": true,
                     "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description"
+            }
+        },
+		{
+            "name": "IC",
+            "table": "IC",
+            "key": "Part ID",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
                 },
                 {
-                    "column": "Cost",
-                    "name": "Cost",
-                    "visible_on_add": false,
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
                     "visible_in_chooser": true
                 },
                 {
-                    "column": "Mass",
-                    "name": "Mass",
-                    "visible_on_add": false,
+                    "column": "Dielectric Type",
+                    "name": "Dielectric",
+                    "visible_on_add": true,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Voltage Rating",
+                    "name": "Voltage Rating",
+                    "visible_on_add": true,
                     "visible_in_chooser": true
                 }
             ],

@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "T3V3S5-7")(type "KiCad")(uri "${KIPRJMOD}/hq_libs/T3V3S5-7.kicad_sym")(options "")(descr "由华秋在线符号添加"))
+  (lib (name "IC")(type "KiCad")(uri "${KICAD_LIB_DIR}/Lib/DEVC/IC.kicad_sym")(options "")(descr ""))
+)
