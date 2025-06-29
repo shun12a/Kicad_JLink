@@ -1,5 +1,9 @@
 (fp_lib_table
   (version 7)
+  (lib (name "MCU")(type "KiCad")(uri "${KICAD_LIB_DIR}/Lib/FOOTPRINT/MCU.pretty")(options "")(descr ""))
+  (lib (name "Oscillator")(type "KiCad")(uri "${KICAD_LIB_DIR}/Lib/FOOTPRINT/Oscillator.pretty")(options "")(descr ""))
+  (lib (name "Resistance")(type "KiCad")(uri "${KICAD_LIB_DIR}/Lib/FOOTPRINT/Resistance.pretty")(options "")(descr ""))
+  (lib (name "Capacitance")(type "KiCad")(uri "${KICAD_LIB_DIR}/Lib/FOOTPRINT/IC.pretty/Capacitance.pretty")(options "")(descr ""))
+  (lib (name "Transport")(type "KiCad")(uri "${KICAD_LIB_DIR}/Lib/FOOTPRINT/Transport.pretty")(options "")(descr ""))
   (lib (name "kicad_community_lib")(type "KiCad")(uri "${KIPRJMOD}/hq_libs/kicad_community_lib.pretty")(options "")(descr "由华秋在线符号添加"))
-  (lib (name "IC")(type "KiCad")(uri "${KICAD_LIB_DIR}/Lib/FOOT/IC.pretty")(options "")(descr ""))
 )

@@ -1,8 +1,71 @@
-3501994874987
-IC
+19261801619463
+Connect
+USB-C-SMD_TYPE-C-16P-CB0.8-073
+
+
+0
+16
+13
+MCU
 QFP50P1600X1600X160-100N
 
 
+0
+100
+100
+Oscillator
+CRYSTAL-SMD_4P-L3.2-W2.5-BL
+
+
+0
+4
+4
+Transport
+SOIC127P600X175-8N
+
+
+0
+8
+8
+kicad_community_lib
+4D03WGJ0472T5E
+
+
+0
+8
+8
+kicad_community_lib
+C317C160J5G5TA
+
+
+0
+2
+2
+kicad_community_lib
+CC0603KRX7R6BB103
+
+
+0
+2
+2
+kicad_community_lib
+CL10C200JB81PNC
+
+
+0
+2
+2
+kicad_community_lib
+STM32F205RET6
+LQFP, 64 Pin (https://www.analog.com/media/en/technical-documentation/data-sheets/ad7606_7606-6_7606-4.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
+0
+64
+64
+kicad_community_lib
+STM32F205VET6
+LQFP, 100 Pin (https://www.nxp.com/docs/en/package-information/SOT407-1.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py
+LQFP QFP
 0
 100
 100
