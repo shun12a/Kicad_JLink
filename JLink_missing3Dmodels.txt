@@ -1,0 +1,12 @@
+### Missing 3D models - created on 2025-07-01 08:36
+### Printed by checking_3D_models plugin
+Board file: E:\kicad_project\JLink\Kicad_JLink\JLink.kicad_pcb
+3D missing models written to:
+E:\kicad_project\JLink\Kicad_JLink\JLink_missing3Dmodels.txt
+-------
+('X1', 'E:/kicad_project/JLink/Kicad_JLink/libs/easyeda/easyeda.3dshapes/CRYSTAL-SMD_4P-L3.2-W2.5-BL.wrl')
+('D1', '${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-143.wrl')
+('U2', '${KICAD6_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.wrl')
+-------
+NUM of 3D missing models:3
+checked extensions ['.stp', '.step', '.stpZ']

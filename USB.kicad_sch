@@ -2729,26 +2729,6 @@
 		)
 		(uuid "3faa4c30-20cf-45d0-82f0-3df938560e5c")
 	)
-	(label "PDD_P"
-		(at 143.51 66.04 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3fc1cad3-d589-4160-b313-183f25999e9c")
-	)
-	(label "PDD_N"
-		(at 143.51 68.58 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "4113344f-839e-47d5-b4dc-859eda467f7a")
-	)
 	(label "USB_P"
 		(at 198.12 60.96 0)
 		(effects
@@ -2900,6 +2880,120 @@
 				)
 				(justify left)
 				(hide yes)
+			)
+		)
+	)
+	(hierarchical_label "PDDM"
+		(shape output)
+		(at 143.51 68.58 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "81d3c057-d5b6-4c83-8a57-ebfd8fca3868")
+	)
+	(hierarchical_label "PDDP"
+		(shape output)
+		(at 143.51 66.04 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "d222e69f-2b0f-4382-a635-3bd91086fc42")
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 196.85 57.15) (xy 196.85 67.31) (xy 204.47 67.31) (xy 204.47 57.15)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 29b5c809-2986-429e-80be-1286c55faa4f)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 137.16 62.23) (xy 137.16 72.39) (xy 144.78 72.39) (xy 144.78 62.23)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid 35c19579-5f89-4111-ba97-68e4cb0dbe87)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 196.85 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "4182edc3-9b3a-4e27-95e3-b8069aa336c6")
+		(property "Netclass" "90Ω"
+			(at 197.5485 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at 25.4 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+			)
+		)
+	)
+	(netclass_flag ""
+		(length 2.54)
+		(shape round)
+		(at 137.16 62.23 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "e8b6751a-5210-4a80-a74d-3b8cd136cc5a")
+		(property "Netclass" "90Ω"
+			(at 137.8585 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Component Class" ""
+			(at -34.29 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
 			)
 		)
 	)
@@ -3065,21 +3159,20 @@
 		(dnp no)
 		(uuid "09871e8b-71d9-416e-92f4-9023edaa131e")
 		(property "Reference" "R3"
-			(at 152.146 64.77 90)
+			(at 150.876 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 150.876 65.278 0)
+		(property "Value" "24Ω"
+			(at 148.59 64.262 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "kicad_community_lib:RC0603FR-0724RL"
@@ -4403,21 +4496,20 @@
 		(dnp no)
 		(uuid "c2fbc593-205c-4bfc-8386-c370ef0c9b6b")
 		(property "Reference" "R4"
-			(at 152.146 67.31 90)
+			(at 150.368 70.612 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 150.876 67.818 0)
+		(property "Value" "24Ω"
+			(at 147.828 70.358 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "kicad_community_lib:RC0603FR-0724RL"

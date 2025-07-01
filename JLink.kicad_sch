@@ -5,6 +5,26 @@
 	(uuid "149db874-5e55-4d74-a6cd-c0191b808110")
 	(paper "A4")
 	(lib_symbols)
+	(wire
+		(pts
+			(xy 123.19 139.7) (xy 127 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31fea222-94ad-4585-84ad-1f6838af19fd")
+	)
+	(wire
+		(pts
+			(xy 123.19 142.24) (xy 127 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "34cc6e20-268f-4970-a2b2-bc44c81b90b1")
+	)
 	(bus
 		(pts
 			(xy 123.19 59.69) (xy 132.08 59.69)
@@ -25,6 +45,26 @@
 		)
 		(uuid "5a1390a6-7344-4472-9142-2c877c9681e9")
 	)
+	(wire
+		(pts
+			(xy 99.06 85.09) (xy 92.71 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca2323ce-c22e-4d04-9c8f-f80ab80063ff")
+	)
+	(wire
+		(pts
+			(xy 99.06 82.55) (xy 92.71 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e6d23534-36ad-4b92-a287-bb98dde3216c")
+	)
 	(bus
 		(pts
 			(xy 99.06 53.34) (xy 121.92 53.34)
@@ -34,6 +74,16 @@
 			(type default)
 		)
 		(uuid "f429aefc-17a0-4cbb-a3f2-c18d9ea590c2")
+	)
+	(label "PDDM"
+		(at 99.06 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "07d6d98d-7007-4683-bf7f-1faa5d5aa67a")
 	)
 	(label "ADC[1..4]"
 		(at 114.3 53.34 0)
@@ -55,6 +105,16 @@
 		)
 		(uuid "363194b7-5dfe-4aa2-bbfa-4b4ba82d1256")
 	)
+	(label "PDDP"
+		(at 123.19 142.24 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "54e3ddea-0c46-47f5-95fc-79baaceeee63")
+	)
 	(label "ADC[1..4]"
 		(at 123.19 59.69 0)
 		(effects
@@ -65,6 +125,16 @@
 		)
 		(uuid "6b1563a0-3b2e-478d-9a45-3234f63560b3")
 	)
+	(label "PDDM"
+		(at 123.19 139.7 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "bd4e9721-64e7-469f-bb5e-b310c4adb671")
+	)
 	(label "PADC[1..4]"
 		(at 96.52 63.5 0)
 		(effects
@@ -74,6 +144,16 @@
 			(justify left bottom)
 		)
 		(uuid "cdb73a3e-5cac-41b7-b678-f71cfdd91778")
+	)
+	(label "PDDP"
+		(at 99.06 85.09 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "cf7b4db7-db63-4d5a-8b74-2523444f2fe9")
 	)
 	(sheet
 		(at 71.12 129.54)
@@ -152,56 +232,6 @@
 				(justify left top)
 			)
 		)
-		(pin "JTCK_SWCK" input
-			(at 92.71 48.26 0)
-			(uuid "96e30c76-71eb-43d7-adf9-7ce509534b7c")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "JTCK_SWDIO" input
-			(at 92.71 50.8 0)
-			(uuid "9c5b2ac5-49ac-40d8-aaa3-27db2409218e")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "JTDI" input
-			(at 92.71 53.34 0)
-			(uuid "00d9a55f-14b9-4dbd-8db6-e523d4e50f08")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "JTDO_SWO" input
-			(at 92.71 55.88 0)
-			(uuid "76c0b0c3-8977-488f-b98f-1565d8983279")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "JTRST" input
-			(at 92.71 58.42 0)
-			(uuid "4ae20040-d739-405d-beb1-d01abf622eda")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
 		(pin "NRST" output
 			(at 92.71 69.85 0)
 			(uuid "34a0d695-b63a-494c-8ccb-26c1196ce849")
@@ -215,6 +245,26 @@
 		(pin "PADC[1..4]" bidirectional
 			(at 92.71 63.5 0)
 			(uuid "c39eb6f8-d5dd-4879-92b6-829351dad55b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PDDM" input
+			(at 92.71 82.55 0)
+			(uuid "b8ccf682-797e-4742-9538-28ef122a1dd1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PDDP" input
+			(at 92.71 85.09 0)
+			(uuid "b42a2d24-390e-4a38-8a2b-53cb93595af2")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -262,6 +312,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left top)
+			)
+		)
+		(pin "PDDM" output
+			(at 127 139.7 180)
+			(uuid "a2885359-7e5d-4af5-aeff-5a9d04b2f985")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PDDP" output
+			(at 127 142.24 180)
+			(uuid "e929ff1a-d959-41ef-8fe3-4df7289de9fc")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

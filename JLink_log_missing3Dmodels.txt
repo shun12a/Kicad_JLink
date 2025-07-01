@@ -1,0 +1,7 @@
+Can not find model defined with enviroment variable (C:\Program Files\KiCad\share\kicad\modules\packages3d :
+E:/kicad_project/JLink/Kicad_JLink/libs/easyeda/easyeda.3dshapes/CRYSTAL-SMD_4P-L3.2-W2.5-BL.wrl
+Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-143.wrl
+Can not find model defined with enviroment variable:
+${KICAD6_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.wrl
+[('X1', 'E:/kicad_project/JLink/Kicad_JLink/libs/easyeda/easyeda.3dshapes/CRYSTAL-SMD_4P-L3.2-W2.5-BL.wrl'), ('D1', '${KICAD6_3DMODEL_DIR}/Package_TO_SOT_SMD.3dshapes/SOT-143.wrl'), ('U2', '${KICAD6_3DMODEL_DIR}/Package_QFP.3dshapes/LQFP-64_10x10mm_P0.5mm.wrl')]

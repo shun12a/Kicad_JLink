@@ -12106,6 +12106,7 @@
 	(symbol
 		(lib_id "4D03WGJ0472T5E:4D03WGJ0472T5E")
 		(at 212.09 219.71 0)
+		(mirror y)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12121,7 +12122,7 @@
 			)
 		)
 		(property "Value" "10K"
-			(at 209.042 227.33 0)
+			(at 215.138 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
