@@ -566,6 +566,10 @@
       {
         "netclass": "POWER",
         "pattern": "*3V*"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "/ADC1"
       }
     ]
   },

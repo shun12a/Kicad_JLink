@@ -2381,7 +2381,7 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 78.74) (xy 194.31 78.74)
+			(xy 190.5 78.74) (xy 187.96 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2421,23 +2421,13 @@
 	)
 	(wire
 		(pts
-			(xy 187.96 73.66) (xy 194.31 73.66)
+			(xy 190.5 73.66) (xy 187.96 73.66)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "589d0a4b-ae8d-4167-b900-c600f77f4d9a")
-	)
-	(wire
-		(pts
-			(xy 187.96 60.96) (xy 190.5 60.96)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "59fe2143-9750-48fd-bd8a-057aa8591d4e")
 	)
 	(wire
 		(pts
@@ -2508,16 +2498,6 @@
 			(type default)
 		)
 		(uuid "71e2b292-3a1b-4444-a222-0a74ef065bca")
-	)
-	(wire
-		(pts
-			(xy 153.67 90.17) (xy 162.56 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "79e31b52-f6c9-487e-8035-b20476133f54")
 	)
 	(wire
 		(pts
@@ -2601,6 +2581,16 @@
 	)
 	(wire
 		(pts
+			(xy 190.5 60.96) (xy 187.96 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cb651bab-de1a-4a80-88e3-b5d002b1ee64")
+	)
+	(wire
+		(pts
 			(xy 83.82 54.61) (xy 83.82 74.93)
 		)
 		(stroke
@@ -2608,16 +2598,6 @@
 			(type default)
 		)
 		(uuid "cb932da2-69a5-440c-8028-3a162530685f")
-	)
-	(wire
-		(pts
-			(xy 153.67 87.63) (xy 162.56 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cda3bb3a-e209-4e20-ba09-da26f5ef53ef")
 	)
 	(wire
 		(pts
@@ -2699,16 +2679,6 @@
 		)
 		(uuid "f0b6b272-e44d-4f76-93e5-b54a6e45c1c8")
 	)
-	(label "DD+"
-		(at 157.48 66.04 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "088a5ced-0a4a-46fd-bc5f-5218fec74a42")
-	)
 	(label "VDD2"
 		(at 190.5 73.66 0)
 		(effects
@@ -2779,16 +2749,6 @@
 		)
 		(uuid "4408c0fa-170a-4d0d-8894-a6d184a5770e")
 	)
-	(label "P5V"
-		(at 162.56 90.17 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "48d7a6bb-8e7a-4e36-9405-af6d8eb962e1")
-	)
 	(label "USB_P"
 		(at 96.52 64.77 0)
 		(effects
@@ -2798,16 +2758,6 @@
 			(justify left bottom)
 		)
 		(uuid "4abcc668-d6da-42bf-bde0-dc7416dd1900")
-	)
-	(label "UD+"
-		(at 187.96 60.96 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4f030066-2edc-487d-ab87-87da6d0a5794")
 	)
 	(label "P5V"
 		(at 156.21 78.74 0)
@@ -2839,16 +2789,6 @@
 		)
 		(uuid "95a5b337-e07b-4b01-a3f7-6842d1a5fee2")
 	)
-	(label "P5VP"
-		(at 162.56 87.63 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c7bca2d-c24c-40b9-bb41-a3c62734e287")
-	)
 	(label "VDD1"
 		(at 153.67 71.12 0)
 		(effects
@@ -2869,16 +2809,6 @@
 		)
 		(uuid "c400e213-5fe9-4e57-9b66-490fb5f108d8")
 	)
-	(label "DD-"
-		(at 157.48 68.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c442577b-5e91-4939-af5b-27a0ba7c5b65")
-	)
 	(label "USB_N"
 		(at 71.12 115.57 180)
 		(effects
@@ -2888,16 +2818,6 @@
 			(justify right bottom)
 		)
 		(uuid "cf4fd11c-6aa6-46e7-96bf-d91f113abfa4")
-	)
-	(label "UD-"
-		(at 187.96 63.5 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d32d8cc6-4e87-4589-9e40-425a93094d7b")
 	)
 	(label "USB_N"
 		(at 96.52 67.31 0)
@@ -2941,28 +2861,6 @@
 			)
 		)
 	)
-	(global_label "P5V"
-		(shape input)
-		(at 153.67 90.17 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "a739bae9-e679-4988-8b40-401ff2623644")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.1167 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "P5VP"
 		(shape output)
 		(at 96.52 57.15 0)
@@ -2985,29 +2883,7 @@
 			)
 		)
 	)
-	(global_label "P5VP"
-		(shape input)
-		(at 153.67 87.63 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "da1d6397-9370-4db8-9f7b-2bc82ce6a974")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 145.8467 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(hierarchical_label "PDDN"
+	(hierarchical_label "PDDM"
 		(shape output)
 		(at 143.51 68.58 180)
 		(effects
@@ -3032,21 +2908,6 @@
 	(rule_area
 		(polyline
 			(pts
-				(xy 137.16 62.23) (xy 137.16 72.39) (xy 144.78 72.39) (xy 144.78 62.23)
-			)
-			(stroke
-				(width 0)
-				(type dash)
-			)
-			(fill
-				(type none)
-			)
-			(uuid 5a173703-f7b2-4ac4-b88d-a49ac1292291)
-		)
-	)
-	(rule_area
-		(polyline
-			(pts
 				(xy 186.69 57.15) (xy 186.69 67.31) (xy 204.47 67.31) (xy 204.47 57.15)
 			)
 			(stroke
@@ -3056,7 +2917,22 @@
 			(fill
 				(type none)
 			)
-			(uuid 72dccbf2-a8b9-4322-a512-ed774ae3b4e6)
+			(uuid 6bd36e87-3777-4c6f-9ea4-926b56b5b0b5)
+		)
+	)
+	(rule_area
+		(polyline
+			(pts
+				(xy 137.16 62.23) (xy 137.16 72.39) (xy 144.78 72.39) (xy 144.78 62.23)
+			)
+			(stroke
+				(width 0)
+				(type dash)
+			)
+			(fill
+				(type none)
+			)
+			(uuid b2f1707e-2345-4a84-b7a2-7f56e2f12387)
 		)
 	)
 	(netclass_flag ""
@@ -3495,128 +3371,6 @@
 		)
 	)
 	(symbol
-		(lib_id "0603B104K101CT:0603B104K101CT")
-		(at 196.85 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0e5fbbb9-84e8-417f-92a9-2dc19dd702c8")
-		(property "Reference" "C37"
-			(at 193.294 80.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nf"
-			(at 203.2 80.772 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad_community_lib:0603B104K101CT"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Chip Capacitor (MLCC) 0603 100nF ±10% 100V X7R"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mpn" "0603B104K101CT"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Walsin Technologies"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead Free" "Yes"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mount" "表面贴装"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10 %"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100 V"
-			(at 196.85 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "cc8dc1a5-680a-4ea6-8f7c-19027902381f")
-		)
-		(pin "2"
-			(uuid "8a325442-e64c-49e2-9402-7a5c8447dac2")
-		)
-		(instances
-			(project "JLink"
-				(path "/149db874-5e55-4d74-a6cd-c0191b808110/a44508ee-0462-41e2-902b-bae1777af405"
-					(reference "C37")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 152.4 60.96 270)
 		(unit 1)
@@ -3909,129 +3663,6 @@
 			(project "JLink"
 				(path "/149db874-5e55-4d74-a6cd-c0191b808110/a44508ee-0462-41e2-902b-bae1777af405"
 					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "0603B104K101CT:0603B104K101CT")
-		(at 196.85 73.66 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "662ca5ff-6c3c-4dfc-a312-4b6f77b8bd03")
-		(property "Reference" "C38"
-			(at 200.406 75.692 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100nf"
-			(at 190.5 75.692 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "kicad_community_lib:0603B104K101CT"
-			(at 196.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 196.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Chip Capacitor (MLCC) 0603 100nF ±10% 100V X7R"
-			(at 196.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mpn" "0603B104K101CT"
-			(at 196.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer" "Walsin Technologies"
-			(at 196.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Lead Free" "Yes"
-			(at 196.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mount" "表面贴装"
-			(at 196.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Tolerance" "10 %"
-			(at 196.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Voltage Rating" "100 V"
-			(at 196.85 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a90fa8a0-a4a3-4bc0-a8f4-ab4aec1199b4")
-		)
-		(pin "2"
-			(uuid "9f3fa106-cbe7-4096-b9e5-0f68dc80df2e")
-		)
-		(instances
-			(project "JLink"
-				(path "/149db874-5e55-4d74-a6cd-c0191b808110/a44508ee-0462-41e2-902b-bae1777af405"
-					(reference "C38")
 					(unit 1)
 				)
 			)
@@ -4409,73 +4040,6 @@
 			(project "JLink"
 				(path "/149db874-5e55-4d74-a6cd-c0191b808110/a44508ee-0462-41e2-902b-bae1777af405"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 199.39 73.66 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7ee5be32-70d2-4ae6-b4b1-4c6d0dc85115")
-		(property "Reference" "#PWR026"
-			(at 205.74 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 73.6599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 199.39 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 199.39 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 199.39 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b89e7962-a8c3-4132-9c10-36d371733bc8")
-		)
-		(instances
-			(project "JLink"
-				(path "/149db874-5e55-4d74-a6cd-c0191b808110/a44508ee-0462-41e2-902b-bae1777af405"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -4917,73 +4481,6 @@
 			(project "JLink"
 				(path "/149db874-5e55-4d74-a6cd-c0191b808110/a44508ee-0462-41e2-902b-bae1777af405"
 					(reference "R1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:Earth_Protective")
-		(at 199.39 78.74 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c2c5e47b-4ff2-43d9-a095-9b8ea10200ee")
-		(property "Reference" "#PWR027"
-			(at 209.55 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PGND"
-			(at 207.01 78.7399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 201.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 201.93 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"Earth_Protective\""
-			(at 199.39 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "54ad3ab6-0140-4c8c-bec9-e914ed362512")
-		)
-		(instances
-			(project "JLink"
-				(path "/149db874-5e55-4d74-a6cd-c0191b808110/a44508ee-0462-41e2-902b-bae1777af405"
-					(reference "#PWR027")
 					(unit 1)
 				)
 			)

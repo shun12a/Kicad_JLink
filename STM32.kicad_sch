@@ -3784,7 +3784,7 @@
 			)
 		)
 	)
-	(global_label "NTCL3"
+	(global_label "NCTL3"
 		(shape bidirectional)
 		(at 109.22 73.66 0)
 		(fields_autoplaced yes)
@@ -4268,7 +4268,7 @@
 			)
 		)
 	)
-	(global_label "NTCL4"
+	(global_label "NCTL4"
 		(shape bidirectional)
 		(at 109.22 76.2 0)
 		(fields_autoplaced yes)
@@ -4466,7 +4466,7 @@
 			)
 		)
 	)
-	(global_label "NTCL2"
+	(global_label "NCTL2"
 		(shape bidirectional)
 		(at 109.22 71.12 0)
 		(fields_autoplaced yes)

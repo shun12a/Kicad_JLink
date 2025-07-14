@@ -36,4 +36,6 @@
   (lib (name "RK73Z1JTTD")(type "KiCad")(uri "${KIPRJMOD}/hq_libs/RK73Z1JTTD.kicad_sym")(options "")(descr "Added by HQ Online Symbol"))
   (lib (name "CL10B104KC8NNNC")(type "KiCad")(uri "${KIPRJMOD}/hq_libs/CL10B104KC8NNNC.kicad_sym")(options "")(descr "Added by HQ Online Symbol"))
   (lib (name "0603B225K250NT")(type "KiCad")(uri "${KIPRJMOD}/hq_libs/0603B225K250NT.kicad_sym")(options "")(descr "Added by HQ Online Symbol"))
+  (lib (name "libdb")(type "Database")(uri "${KICAD_LIB_DIR}/libdb.kicad_dbl")(options "")(descr ""))
+  (lib (name "Connect")(type "KiCad")(uri "${KICAD_LIB_DIR}/Lib/DEVICE/Connect.kicad_sym")(options "")(descr ""))
 )

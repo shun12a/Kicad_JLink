@@ -143,6 +143,43 @@
                 "description": "Description"
             }
         },
+        {
+            "name": "Connect",
+            "table": "Connect",
+            "key": "Part ID",
+            "symbols": "Symbols",
+            "footprints": "Footprints",
+            "fields": [
+                {
+                    "column": "Manufacturer",
+                    "name": "Manufacturer",
+                    "visible_on_add": false,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Value",
+                    "name": "Value",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                },
+                {
+                    "column": "JLC Ident",
+                    "name": "Dielectric",
+                    "visible_on_add": true,
+                    "visible_in_chooser": false
+                },
+                {
+                    "column": "Datasheet",
+                    "name": "Datasheet",
+                    "visible_on_add": true,
+                    "visible_in_chooser": true
+                }
+            ],
+            "properties": {
+                "description": "Description",
+                "Datasheet": "Datasheet"
+            }
+        },
 		{
             "name": "Oscillator",
             "table": "Oscillator",
