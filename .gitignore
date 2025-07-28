@@ -1,3 +1,18 @@
 .git
 ./hq_libs
 ./JLink-backups
+*.bak
+*.cache
+*.kicad_prl
+*.net
+*.drl
+*.gbr
+*.gpi
+*.cnc
+*.pos
+*.out
+*.bak
+*.tmp
+# 输出文件夹（如Gerber文件）
+gerber/
+production/
