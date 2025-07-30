@@ -40,6 +40,11 @@
     },
     "visible_items": [
       "vias",
+<<<<<<< Updated upstream
+=======
+      "footprint_text",
+      "footprint_anchors",
+>>>>>>> Stashed changes
       "ratsnest",
       "grid",
       "footprints_front",
