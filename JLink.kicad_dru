@@ -1,0 +1,12 @@
+(version 1)
+
+#test 自定义规则
+(rule HV
+	(condition "A.NetClass == 'GND'")
+	(constraint clearance (min 1.5mm)))
+
+#Dont allow footprint on back layer
+(rule "Top side footprint only"
+(severity ignore)	
+(layer B.Cu)
+(constraint disallow footprint))
