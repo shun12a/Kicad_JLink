@@ -36,6 +36,7 @@
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_references",
       "tracks",
       "drc_errors",
       "drawing_sheet",
@@ -46,7 +47,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_55555555_5f555555",
+    "visible_layers": "00000000_00000000_55555555_57555575",
     "zone_display_mode": 0
   },
   "git": {

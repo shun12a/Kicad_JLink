@@ -3638,7 +3638,7 @@
 		)
 		(uuid "6093a380-0065-458e-91bd-bfe62c0ec1ca")
 	)
-	(label "JTMS_SWDIO"
+	(label "JTCK_SWDIO"
 		(at 154.94 181.61 0)
 		(effects
 			(font
